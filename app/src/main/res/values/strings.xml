@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Weather App</string>
+    <string name="textview">\@string</string>
+    <string name="seven_day_forecast_text">7-DAY FORECAST</string>
+    <string name="today">Today</string>
+    <string name="hourly_forecast">HOURLY FORECAST</string>
+    <string name="day">Day</string>
+    <string name="weather_condition">Weather Condition</string>
+    <string name="_30_28">30.28</string>
+    <string name="_97_76">-97.76</string>
+</resources>

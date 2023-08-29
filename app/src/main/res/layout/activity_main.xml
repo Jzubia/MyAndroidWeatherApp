@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+    <HorizontalScrollView
+        android:layout_width="350dp"
+        android:layout_height="150dp"
+        android:translationX="30dp"
+        android:translationY="200dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/Now"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="Now"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/nowImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/nowTemp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour1"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour1Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/hour1Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour2"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour2Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/hour2Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour3"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour3Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/sunny" />
+
+                <TextView
+                    android:id="@+id/hour3Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour4"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour4Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/hour4Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour5"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour5Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/weather_app" />
+
+                <TextView
+                    android:id="@+id/hour5Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="0"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour6"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour6Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/hour6Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour7"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour7Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour7Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour8"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour8Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour8Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour9"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour9Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour9Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour10"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour10Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour10Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour11"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour11Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour11Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour12"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour12Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour12Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour13"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour13Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour13Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour14"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour14Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour14Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour15"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour15Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour15Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour16"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour16Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour16Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour17"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour17Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour17Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour18"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour18Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour18Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour19"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour19Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour19Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour20"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour20Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour20Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour21"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour21Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour21Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour22"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour22Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour22Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="0"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/hour23"
+                    android:layout_width="75dp"
+                    android:layout_height="wrap_content"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/hour23Image"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/clouds" />
+
+                <TextView
+                    android:id="@+id/hour23Temp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="TextView"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView
+        android:id="@+id/hourlyForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hourly_forecast"
+        android:textAlignment="center"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="30dp"
+        android:translationY="180dp" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="350dp"
+        android:layout_height="250dp"
+        android:layout_alignParentEnd="false"
+        android:translationX="30dp"
+        android:translationY="420dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Today"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:text="@string/today"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/TodayWeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/TodayAvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day1"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Day1WeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/weather_app" />
+
+                <TextView
+                    android:id="@+id/Day1AvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day2"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Day2WeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/Day2AvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day3"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Day3WeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/sunny" />
+
+                <TextView
+                    android:id="@+id/Day3AvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day4"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Day4WeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/sunny" />
+
+                <TextView
+                    android:id="@+id/Day4AvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day5"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Day5WeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/Day5AvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/Day6"
+                    android:layout_width="50dp"
+                    android:layout_height="75dp"
+                    android:lineSpacingExtra="8sp"
+                    android:paddingTop="30dp"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/Day6WeatherImage"
+                    android:layout_width="228dp"
+                    android:layout_height="match_parent"
+                    android:paddingLeft="25dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="5dp"
+                    app:srcCompat="@drawable/snowy" />
+
+                <TextView
+                    android:id="@+id/Day6AvgTemp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:translationX="8dp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/sevenDayForecast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/seven_day_forecast_text"
+        android:textColor="#673AB7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="30dp"
+        android:translationY="370dp" />
+
+    <TextView
+        android:id="@+id/sevenDayForecastInfo"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="@string/day"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="30dp"
+        android:translationY="398dp" />
+
+    <TextView
+        android:id="@+id/sevenDayForecastWeatherCondition"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/weather_condition"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="143dp"
+        android:translationY="398dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Avg Temp"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:translationX="308dp"
+        android:translationY="398dp" />
+
+    <TextView
+        android:id="@+id/currentCity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Austin"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        android:translationX="0dp"
+        android:translationY="20dp" />
+
+    <TextView
+        android:id="@+id/currentTemp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="70°F"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationY="75dp" />
+
+    <EditText
+        android:id="@+id/editTextLatitude"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/_30_28"
+        android:translationX="30dp"
+        android:translationY="120dp" />
+
+    <EditText
+        android:id="@+id/editTextLongitude"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/_97_76"
+        android:translationX="145dp"
+        android:translationY="120dp" />
+
+    <Button
+        android:id="@+id/updateLocationBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="Update Location"
+        android:translationX="260dp"
+        android:translationY="111dp" />
+
+</RelativeLayout>
